@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function selisih(harga) {
+        if (harga.length < 2) {
+            return null;
+        }
+
+        let minHarga = harga[0];  
+        let maksSelisih = harga[1] - harga[0];  
+
+        for (let i = 1; i < harga.length; i++) {
+            minHarga = Math.min(minHarga, harga[i]);
+
+            const selisihSaatIni = harga[i] - minHarga;
+
+            maksSelisih = Math.max(maksSelisih, selisihSaatIni);
+        }
+
+        return maksSelisih;
+    }
+
+    const harga = [10, 7, 5, 8, 11, 9, 1];
+    const hasil = selisih(harga);
+    console.log(hasil);
+
+    </script>
+</body>
+</html>
