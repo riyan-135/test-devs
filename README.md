@@ -38,3 +38,5 @@ F. cypress => software automation testing
 G. 1.  Aplikasi Satu Halaman (SPA) => vuejs => untuk cara kodingnya menurut saya lebih enak di vue js lebih rapi
    2. Progresive web app (PWA) => react js => karena yang saya gunakan di tempat sekarang itu react js jadi menurut saya react js lebih enak untuk pwa
   3.Aplikasi Multi-Halaman => laravel => karena menurut saya untuk saat ini laravel yang paling enak digunakan 
+
+  blob:https://web.whatsapp.com/0788251e-8d92-49a0-bfd7-16961d73b087 link image erd
